@@ -36,7 +36,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #333; 
+    color: #555;
     font-weight: 500;
     font-size: 1.1rem;
     transition: color 0.3s ease;
@@ -257,10 +257,11 @@ footer {
 }
 
 .footer-links a {
-    color: #666; 
+    color: #666;
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 .footer-links a:hover {
     color: #8b6f47;
 }
@@ -280,15 +281,6 @@ footer {
 
 .social-links a:hover {
     color: #8b6f47;
-}
-nav a:focus,
-.newsletter input:focus,
-.newsletter button:focus,
-.footer-links a:focus,
-.social-links a:focus {
-    outline: none;
-color: #b08d57; 
-transform: scale(1.1); 
 }
 
 @media (max-width: 768px) {
