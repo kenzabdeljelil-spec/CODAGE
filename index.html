@@ -18,7 +18,7 @@
       <img src="images/LOGO.png" alt="Dechewsky Gallery - Logo" class="logo">
         <nav>
             <ul>
-                <li><a href="#accueil" class="active">Accueil</a></li>
+               <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#galerie">Galerie</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -119,6 +119,14 @@
             <a href="#">Facebook</a>
         </div>
     </footer>
-
+<script>
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function() {
+          document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+      document.querySelector('a[href="#accueil"]').classList.add('active');
+    </script>
 </body>
 </html>
