@@ -340,3 +340,7 @@ footer {
         font-size: 0.9rem;
     }
 }
+a:focus, button:focus, input:focus {
+    outline: 4px solid #b08d57;
+    outline-offset: 2px;
+}
