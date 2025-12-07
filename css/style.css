@@ -286,9 +286,9 @@ nav a:focus,
 .newsletter button:focus,
 .footer-links a:focus,
 .social-links a:focus {
-    outline: 3px solid #50412e; /* Utilisation de la nouvelle couleur d'accent foncée */
-    outline-offset: 2px;
-    border-radius: 2px;
+    outline: none;
+color: #b08d57; 
+transform: scale(1.1); 
 }
 
 @media (max-width: 768px) {
